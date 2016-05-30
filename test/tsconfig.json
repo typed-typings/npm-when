@@ -2,9 +2,5 @@
   "compilerOptions": {
     "module" : "commonjs"
   },
-  "files": [
-    "../typings/index.d.ts"
-    "../out/index.d.ts"
-    "test.ts",
-  ]
+  "exclude": []
 }
