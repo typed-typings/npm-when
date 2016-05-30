@@ -2,14 +2,13 @@
   "private": true,
   "scripts": {
     "postinstall": "typings install && typings prune",
-    "build": "tsc -p . && typings bundle -o out/index.d.ts",
-    "test": "tsc -p test/"
+    "build": "npm run build-v2",
+    "build-v2": "cd 2 && tsc -p . && typings bundle -o out/index.d.ts",
+    "test": "npm run test-v2",
+    "test-v2": "tsc -p 2/test"
   },
   "devDependencies": {
     "typescript": "^1.8.10",
     "typings": "^1.0.4"
-  },
-  "dependencies": {
-    "when": "^3.7.7"
   }
 }
