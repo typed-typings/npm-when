@@ -1,0 +1,1 @@
+import when = require('when');

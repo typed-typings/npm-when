@@ -1,0 +1,7 @@
+{
+  "name": "when",
+  "main": "index.d.ts",
+  "globalDevDependencies": {
+    "mocha": "registry:dt/mocha#2.2.5+20160317120654"
+  }
+}
