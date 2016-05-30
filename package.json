@@ -3,13 +3,9 @@
   "scripts": {
     "postinstall": "typings install && typings prune",
     "build": "tsc -p . && typings bundle -o out/index.d.ts",
-    "test": "tsc -p test/",
-    "lint": "tslint index.d.ts"
+    "test": "tsc -p test/"
   },
   "devDependencies": {
-    "ts-node": "^0.7.0",
-    "tslint": "^3.10.2",
-    "tslint-config-typings": "^0.1.1",
     "typescript": "^1.8.10",
     "typings": "^1.0.4"
   },
