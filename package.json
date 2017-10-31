@@ -9,7 +9,7 @@
     "test-v2": "tsc -p 2/test"
   },
   "devDependencies": {
-    "typescript": "^2.3.2",
+    "typescript": "^2.6.1",
     "typings": "^2.1.1"
   }
 }
